@@ -109,6 +109,6 @@ Alok Sarwade
 
 Data Scientist | Python Developer
 
-LinkedIn: www.linkedin.com/in/alok-sarwade
+LinkedIn: www.linkedin.com/in/alok-sarwade-datascience/
 
-GitHub: https://github.com/yourusername
+GitHub: https://github.com/aloksarwade2002
