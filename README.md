@@ -1,26 +1,22 @@
-# IndiGo Airline Passenger Referral Prediction
+# ✈️ IndiGo Airline Passenger Referral Prediction
 
-## Project Overview
+## 📖 Overview
 
-Customer referrals play a crucial role in the airline industry as they indicate customer satisfaction and loyalty. This project aims to predict whether a passenger will recommend IndiGo Airlines based on customer review data and service ratings.
+Customer referrals are a strong indicator of customer satisfaction and brand loyalty in the airline industry. This project uses Machine Learning techniques to predict whether a passenger will recommend IndiGo Airlines based on service ratings, travel experience, and customer feedback.
 
-Using machine learning classification techniques, the model analyzes passenger feedback and identifies the key factors influencing customer recommendations.
-
----
-
-## Problem Statement
-
-IndiGo Airlines receives thousands of customer reviews containing valuable insights about passenger experiences. Manually analyzing these reviews is difficult and time-consuming.
-
-The objective of this project is to build a machine learning model that predicts whether a passenger will recommend IndiGo Airlines based on service quality, comfort, value for money, cabin service, entertainment, food quality, and other factors.
+The project includes data preprocessing, exploratory data analysis (EDA), feature engineering, model building, hyperparameter tuning, and model evaluation.
 
 ---
 
-## Dataset
+## 🎯 Objective
 
-The dataset contains passenger reviews and airline service ratings collected between 2006 and 2019.
+To build a classification model that predicts whether a passenger is likely to recommend IndiGo Airlines and identify the key factors influencing customer satisfaction.
 
-### Features Include:
+---
+
+## 📊 Dataset
+
+The dataset contains passenger review information and airline service ratings, including:
 
 - Overall Rating
 - Seat Comfort
@@ -29,86 +25,149 @@ The dataset contains passenger reviews and airline service ratings collected bet
 - Inflight Entertainment
 - Ground Service
 - Value for Money
-- Trip Verification Status
 - Passenger Type
 - Travel Class
-- Recommendation Status (Target Variable)
+- Trip Verification Status
+
+**Target Variable:** Recommendation Status (Yes/No)
 
 ---
 
-## Project Workflow
+## 🛠️ Project Workflow
 
-1. Data Collection
-2. Data Cleaning
-3. Exploratory Data Analysis (EDA)
-4. Feature Engineering
-5. Data Preprocessing
-6. Model Building
-7. Model Evaluation
-8. Performance Comparison
-9. Business Insights
+### 1. Data Preprocessing
+- Handling missing values
+- Removing inconsistencies
+- Encoding categorical variables
+- Feature scaling
+
+### 2. Exploratory Data Analysis (EDA)
+- Customer recommendation analysis
+- Service quality analysis
+- Correlation analysis
+- Feature importance exploration
+
+### 3. Feature Engineering
+- Data transformation
+- Feature selection
+- Encoding categorical features
+
+### 4. Model Building
+Implemented and compared:
+
+- Decision Tree Classifier
+- Random Forest Classifier
+- XGBoost Classifier
+
+### 5. Hyperparameter Tuning
+Optimized Random Forest model to improve predictive performance.
 
 ---
 
-## Technologies Used
+## 📈 Model Performance
 
+### Random Forest: Before vs After Hyperparameter Tuning
+
+| Metric | Before Tuning | After Tuning |
+|----------|----------|----------|
+| Accuracy | 92.6% | 94.0% |
+| Precision | 92.3% | 94.1% |
+| Recall | 92.3% | 93.4% |
+| F1 Score | 92.3% | 93.8% |
+
+---
+
+### Model Comparison
+
+| Model | Accuracy | Precision | Recall | F1 Score |
+|---------|---------|---------|---------|---------|
+| Decision Tree | 93.25% | 93.25% | 92.71% | 92.98% |
+| Random Forest | 94.00% | 94.07% | 93.44% | 93.75% |
+| XGBoost | **94.04%** | **94.21%** | **93.38%** | **93.79%** |
+
+🏆 **Best Performing Model: XGBoost**
+
+---
+
+## 💡 Key Insights
+
+- Value for Money is one of the most influential factors affecting customer recommendations.
+- Cabin Staff Service significantly impacts customer satisfaction.
+- Higher overall ratings strongly correlate with positive referrals.
+- Service quality directly influences customer loyalty and brand advocacy.
+
+---
+
+## 🚀 Business Impact
+
+This solution can help airlines:
+
+- Predict customer loyalty and referrals.
+- Identify dissatisfied customers early.
+- Improve service quality using data-driven insights.
+- Enhance customer retention and satisfaction.
+- Support strategic decision-making.
+
+---
+
+## 🧰 Tech Stack
+
+### Programming Language
 - Python
+
+### Libraries
 - Pandas
 - NumPy
 - Matplotlib
 - Seaborn
 - Scikit-Learn
 - XGBoost
-- Google Colab / Jupyter Notebook
+
+### Machine Learning
+- Classification Models
+- Hyperparameter Tuning
+- Model Evaluation
+
+### Development Tools
+- Jupyter Notebook
+- Google Colab
+- Git & GitHub
 
 ---
 
-## Machine Learning Models
 
-- Logistic Regression
-- Decision Tree Classifier
-- Random Forest Classifier
-- XGBoost Classifier
+## 📷 Project Highlights
 
----
+✅ End-to-End Machine Learning Project
 
-## Evaluation Metrics
+✅ Exploratory Data Analysis (EDA)
 
-- Accuracy Score
-- Precision
-- Recall
-- F1 Score
-- ROC-AUC Score
-- Confusion Matrix
+✅ Feature Engineering
 
----
+✅ Classification Modeling
 
-## Key Insights
+✅ Hyperparameter Tuning
 
-- Value for Money significantly influences customer recommendations.
-- Cabin Staff Service and Seat Comfort are strong predictors of customer satisfaction.
-- Customers providing higher overall ratings are more likely to recommend IndiGo.
-- Service quality has a direct impact on customer loyalty and referrals.
+✅ Model Comparison
+
+✅ Business Insights
+
+✅ 94%+ Prediction Accuracy
 
 ---
 
-## Business Impact
+## 👨‍💻 Author
 
-This predictive model can help IndiGo:
+### Alok Sarwade
 
-- Identify dissatisfied customers early.
-- Improve service quality based on influential factors.
-- Increase customer retention.
-- Enhance brand reputation through improved passenger experiences.
+Data Scientist | Python Developer | AI Enthusiast
+
+📧 Email: alok.sarwade3108@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/alok-sarwade-datascience/
+
+💻 GitHub: https://github.com/AlokSarwade2002
 
 ---
 
-## Author
-
-Alok Sarwade
-
-Data Scientist | Python Developer
-
-LinkedIn: www.linkedin.com/in/alok-sarwade-datascience/
-
-GitHub: https://github.com/aloksarwade2002
+⭐ If you found this project useful, consider giving it a star!
